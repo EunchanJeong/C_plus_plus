@@ -24,9 +24,10 @@ int main()
         cin >> sex;
     } while(sex != 'M' && sex != 'F');
 
-
-    cout << "활동량을 입력하시오 (가벼운 활동: 25~30, 중등도 활동: 30~35, 강한 활동: 35~40, 아주 강한 활동: 40~): ";
-    cin >> activity;
+    do {
+        cout << "활동량을 입력하시오 (가벼운 활동: 25~30, 중등도 활동: 30~35, 강한 활동: 35~40, 아주 강한 활동: 40~): ";
+        cin >> activity;
+    } while (activity < 25);
     
     standardWeight = calculateStadardWeight(height, sex);
     recommendedCalories = calculateCalories(standardWeight, activity);
