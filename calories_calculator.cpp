@@ -1,5 +1,3 @@
-// 다이어트 권장 칼로리 계산기
-
 #include <iostream>
 #include <iomanip>
 
