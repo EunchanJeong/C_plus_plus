@@ -47,7 +47,7 @@ double calculateStadardWeight(double height, char sex)
         return (height/100) * (height/100) * 22;
     }
     else {
-        return (height/100) * (height/100) * 2116;
+        return (height/100) * (height/100) * 21;
     }
 }
 
