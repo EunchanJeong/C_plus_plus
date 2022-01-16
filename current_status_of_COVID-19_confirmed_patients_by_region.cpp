@@ -45,9 +45,7 @@ Covid19Counter::~Covid19Counter()  // 소멸자
 }
 
 void Covid19Counter::update(int* input) // 지역별 확진자 수를 최신화한다.
-{
-	int temp;
-	
+{	
 	// 이전에 입력받은 확진자 수를 어제 확진자수의 배열에 저장한다.
 	// 새로 입력받은 확진자 수를 오늘 확진자수의 배열에 저장한다.
 	for(int i = 0; i < 17; i++)
